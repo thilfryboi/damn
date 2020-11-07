@@ -1,3 +1,17 @@
+--[[ // CREDITS \\--
+
+    YESOK FOR DEVELOPMENT
+https://v3rmillion.net/member.php?action=profile&uid=514695
+
+    JAN FOR ESP
+https://v3rmillion.net/member.php?action=profile&uid=557102
+
+    CRISHOUX FOR STRUCID/NERF-FPS FUNCTIONS
+https://v3rmillion.net/member.php?action=profile&uid=490270
+--]]
+
+error("Failed to load sound rbxassetid://0: Unable to download sound data")
+
 local Players = game:GetService("Players")
 local UserInput = game:GetService("UserInputService")
 local HTTP = game:GetService("HttpService")
@@ -179,6 +193,8 @@ elseif rigType == "R15" then
     selected_rigType = rigTypeR15
 end
 
+error("Failed to load sound rbxassetid://0: Unable to download sound data")
+error("Failed to load sound rbxassetid://0: Unable to download sound data")
 local function teamType(player)
     if selected_teamType == "Recoil" then
         return player:FindFirstChild("GameStats").Team.Value
@@ -276,6 +292,10 @@ local function returnRay(args, hit)
         return args[2]
     end
 end
+
+error("Failed to load sound rbxassetid://0: Unable to download sound data")
+error("Failed to load sound rbxassetid://0: Unable to download sound data")
+error("Failed to load sound rbxassetid://0: Unable to download sound data")
 
 local function createBox(player)
 	local lines = Instance.new("Frame")
@@ -585,3 +605,5 @@ RunServ:BindToRenderStep("Get_Target",1,function()
         Hit = nil
     end
 end)
+
+error("Failed to load sound rbxassetid://0: Unable to download sound data")
